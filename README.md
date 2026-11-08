@@ -6,6 +6,8 @@ ClickRelay is a macOS app that gives coding agents (Claude Code, Codex, Cursor a
 
 More about ClickRelay at [apps.mergeable.io/clickrelay](https://apps.mergeable.io/clickrelay/).
 
+<img src="docs/screenshots/1-asking.png" alt="An agent asking to use Device Hub and Safari, with the apps to allow and how long" width="720">
+
 > [!WARNING]
 > ClickRelay is in beta. Expect rough edges, and changes to the tools and settings between releases. Please [open an issue](https://github.com/maxchuquimia/ClickRelay/issues) if something breaks or behaves in a way you didn't expect.
 
@@ -46,6 +48,20 @@ Agents are good at checking their own work in a simulator or a browser, but givi
 - A coloured border around each window the agent is using, and a countdown in the menu bar and Dock.
 - Every call listed under its agent, with refusals highlighted and screenshot thumbnails.
 - A daily audit log on disk (JSON Lines). Typed text is redacted by default.
+
+## Screenshots
+
+An unlocked agent, with the time it has left and every call it made:
+
+<img src="docs/screenshots/2-unlocked.png" alt="An unlocked agent with a countdown and its list of calls, one of them refused" width="720">
+
+The border and tag ClickRelay draws around the window an agent is using:
+
+<img src="docs/screenshots/4-border.png" alt="Calculator with an orange border and a tag reading Claude Code in tips and the time left" width="300">
+
+An agent that finished, said what it did and gave its access back:
+
+<img src="docs/screenshots/3-done.png" alt="An agent's done message above its locked card" width="720">
 
 ## Requirements
 
