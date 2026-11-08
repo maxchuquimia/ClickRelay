@@ -1,3 +1,5 @@
+<img src="docs/icon.png" alt="ClickRelay app icon" width="128">
+
 # ClickRelay
 
 Let your coding agent use your Mac, on your terms.
