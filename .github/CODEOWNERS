@@ -1,0 +1,6 @@
+# With "Require review from Code Owners" on main, changes to these paths
+# can't merge without the owner's review. Later lines win, so keep the
+# release-critical paths last.
+*                 @maxchuquimia
+/.github/         @maxchuquimia
+/scripts/         @maxchuquimia
